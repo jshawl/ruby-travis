@@ -6,6 +6,6 @@ describe Hello do
   end
   it "has a name" do
     @h = Hello.new("Jesse")
-    expect(@h.name).to be("Jesse")
+    expect(@h.name).to eq("Jesse")
   end
 end
